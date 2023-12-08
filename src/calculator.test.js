@@ -25,3 +25,20 @@ test("Subtracts negative numbers", () => {
 test("Subtracts when 2nd operand greater than first", () => {
   expect(calc.subtract(10, 20)).toBe(-10);
 });
+
+// Multiply
+test("Multiplies 11 * 9", () => {
+  expect(calc.multiply(11, 9)).toBe(99);
+});
+
+test("Multiplies larger numbers", () => {
+  expect(calc.multiply(1234, 99)).toBe(122166);
+});
+
+test("Multiplies negative numbers", () => {
+  expect(calc.multiply(10, -2)).toBe(-20);
+});
+
+test("Multiplies two negative numbers", () => {
+  expect(calc.multiply(-10, -2)).toBe(20);
+});

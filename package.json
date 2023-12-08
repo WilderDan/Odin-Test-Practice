@@ -1,0 +1,15 @@
+{
+  "name": "odin-test-practice",
+  "version": "1.0.0",
+  "description": "A repository for practicing TDD using Jest. Assignment taken from [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

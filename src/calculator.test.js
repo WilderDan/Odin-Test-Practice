@@ -42,3 +42,20 @@ test("Multiplies negative numbers", () => {
 test("Multiplies two negative numbers", () => {
   expect(calc.multiply(-10, -2)).toBe(20);
 });
+
+// Divide
+test("Divides two numbers", () => {
+  expect(calc.divide(10, 2)).toBe(5);
+});
+
+test("Divides with decimal", () => {
+  expect(calc.divide(9, 2)).toBe(4.5);
+});
+
+test("Divides with negative numbers", () => {
+  expect(calc.divide(20, -5)).toBe(-4);
+});
+
+test("Divides by 0", () => {
+  expect(calc.divide(10, 0)).toBe(Infinity);
+});

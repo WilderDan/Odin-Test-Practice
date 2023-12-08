@@ -8,7 +8,7 @@ function multiply(a, b) {
   return a * b;
 }
 function divide(a, b) {
-  return;
+  return a / b;
 }
 
 const calculator = { add, subtract, multiply, divide };
